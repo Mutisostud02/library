@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Library Book Store</h1>
+    </div>
+    <nav class="sidebar">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SETTINGS</li>
+        </ul>
+    </nav>
+    <main class="main-area">
+        <h2>AVAILABLE BOOKS</h2>
+        <div class="books">
+            
+        </div>
+        <div class="add-book">
+            <form action="./index.html" name="addBook">
+                <label for="book-title">Book Title:    <input id="book-title" type="text" name="book-title" required></label>
+                <label for="book-author">Book Author: <input id="book-author" type="text" name="book-author" required></label>
+                <label for="pages">Book Pages: <input id="pages" type="number" name="pages" required></label>
+                <p>Finished Reading: <label for="yes">Yes<input id="yes" type="radio" name="yes-no" value="yes" checked></label>
+                <label for="no">No<input id="no" type="radio" name="yes-no" value="no"></label>
+                </p>
+                <button id="submit" type="submit">Add Book</button>
+            </form>
+            
+        </div>
+    </main>
+    <footer>library @ 2023 copyrights   atupdowdtnload@gmail.com</footer>
+    
+</body>
+</html>
